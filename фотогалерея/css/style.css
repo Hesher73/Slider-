@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{text-decoration: none;}
+ol,ul. li{list-style-type: none;}
+h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: inherit;}
+table{border-collapse: collapse; border-spacing: 0;}
+img{
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+body{
+    height: 100%;
+    line-height: 1;
+    letter-spacing: 5px;
+    font-size: 16px;
+    background-color: #333;
+    font-family: Poppins, sans-serif;
+}
+.wrapper{
+    padding: 50px;
+    height: 500px;
+}
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 0 30px 0;
+}
+
+.image-slider{
+    padding: 30px 0 70px 0;
+}
+.image-slider-image{
+    text-align: center;
+}
+.image-slider-image img{
+    max-width: 100%;
+    height: 340px;
+}
+
+.image-slider .swiper-button-prev::after,
+.image-slider .swiper-button-next::after{
+    color: #fff;
+    font-size: 40px;
+}
+
+/*.image-slider .swiper-pagination-bullet{*/
+/*    width: 18px;*/
+/*    height: 18px;*/
+/*    font-size: 15px;*/
+/*    padding-top: 1px;*/
+/*    padding-left: 4px;*/
+/*    background-color: #fff;*/
+/*    text-align: center;*/
+/*}*/
+
+
+a[data-fancybox] img {
+    cursor: zoom-in;
+}
+
+.fancybox__container {
+    --fancybox-color: #999;
+
+    --carousel-button-svg-width: 32px;
+    --carousel-button-svg-height: 32px;
+
+    --carousel-button-svg-stroke-width: 1.2;
+    --carousel-button-svg-filter: none;
+}
+
+.fancybox__nav {
+    --carousel-button-svg-width: 36px;
+    --carousel-button-svg-height: 36px;
+
+    --carousel-button-svg-stroke-width: 1;
+}
